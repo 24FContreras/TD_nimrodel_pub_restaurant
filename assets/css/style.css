@@ -1,0 +1,47 @@
+/*HEADER */
+nav {
+  background-image: url("../img/fondo.jpg");
+  background-size: 40%;
+}
+
+/* CARD */
+.card img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* CAROUSEL */
+#carruselNimrodel img {
+  width: 100% !important;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+  background-image: url("../img/fondo.jpg");
+}
+
+.carousel {
+  padding: 0 !important;
+}
+
+/* CUSTOM MODAL */
+
+.custom-modal {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.custom-modal :first-child {
+  margin-right: 100%;
+}
